@@ -1,4 +1,5 @@
 from functools import reduce
+from itertools import groupby
 
 """
 @desc ：函数式编程
@@ -28,3 +29,9 @@ print(r)
 # **字符串倒序排序
 s = '可减按cvcc征收车1234辆购置税的乘用车购置日期如何确定？'
 print(s[::-1])
+
+s = "adfdfdr4tetewtrwetew3erwrwer"
+def test(c):
+    if c != "a":
+        return c
+print([test(i) for i in s])
