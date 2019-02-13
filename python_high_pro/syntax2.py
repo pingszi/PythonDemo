@@ -245,7 +245,7 @@ def test7():
     print(b.value)
     b.value = 'hello'
     print(b.value)
-
+    
 
 if __name__ == "__main__":
     # test1()
